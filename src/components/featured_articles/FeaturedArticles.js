@@ -7,20 +7,6 @@ import f1 from '../../assets/images/featured/featured-1.jpg';
 import f2 from '../../assets/images/featured/featured-2.jpg';
 import f3 from '../../assets/images/featured/featured-3.jpg';
 
-const imgArray = [
-    {
-        src: f1,
-        title: 'featured-1'
-    },
-    {
-        src: f2,
-        title: 'featured-2'
-    },
-    {
-        src: f3,
-        title: 'featured-3'
-    }
-];
 const FeaturedArticles = () => {
   return (
     <div className='featured-articles header-offset'>
@@ -48,3 +34,18 @@ const FeaturedArticles = () => {
 }
 
 export default FeaturedArticles;
+
+const imgArray = [
+    {
+        src: f1,
+        title: 'featured-1'
+    },
+    {
+        src: f2,
+        title: 'featured-2'
+    },
+    {
+        src: f3,
+        title: 'featured-3'
+    }
+];

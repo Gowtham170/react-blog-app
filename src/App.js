@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 // remixicons
 import 'remixicon/fonts/remixicon.css';
-import { Navbar, FeaturedArticles, QuickRead } from './components/index';
+import { Navbar, FeaturedArticles, QuickRead, OlderPosts } from './components/index';
 
 const App = () => {
   return (
@@ -9,6 +9,7 @@ const App = () => {
       <Navbar/>
       <FeaturedArticles/>
       <QuickRead/>
+      <OlderPosts/>
     </div>
   )
 }

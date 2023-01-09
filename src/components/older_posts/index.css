@@ -1,0 +1,24 @@
+.older-posts-grid-wrapper {
+    gap: var(--gap);
+}
+
+.article-image-wrapper, .article {
+    min-height: var(--item-min-height-sm);
+}
+
+.older-posts .article {
+    background-color: var(--secondary-background-color);
+}
+
+.article-image-wrapper {
+    position: relative;
+}
+
+.older-posts-grid-wrapper .article-data-container {
+    position: static;
+    background-color: transparent;
+}
+
+.older-posts-grid-wrapper .article-title {
+    margin-bottom: var(--margin-sm);
+}
