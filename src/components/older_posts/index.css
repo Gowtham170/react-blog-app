@@ -16,7 +16,7 @@
 
 .older-posts-grid-wrapper .article-data-container {
     position: static;
-    background-color: transparent;
+    background: transparent;
 }
 
 .older-posts-grid-wrapper .article-title {

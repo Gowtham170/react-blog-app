@@ -20,6 +20,8 @@ const OlderPosts = () => {
                         <OlderPost key={img.imgTitle} imgSrc={img.imgSrc}/>
                    ))}
                 </div>
+
+                <div></div>
             </div>
         </div>
     )
