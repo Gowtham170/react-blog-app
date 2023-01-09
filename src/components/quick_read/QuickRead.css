@@ -1,0 +1,44 @@
+.section-title {
+   position: relative;
+   font-size: var(--font-size-md);
+   margin-bottom: 6rem;
+}
+
+.section-title::before {
+    content: attr(data-name);
+    position: absolute;
+    top: 1.5rem;
+    left: 2rem;
+    text-transform: uppercase;
+    opacity: .1;
+    font-size: var(--font-size-lg);
+}
+
+.myswiper {
+    width: 100%;
+    height: 40rem;
+}
+
+.swiperslide {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.swiper-button-next, .swiper-button-prev {
+    background-color: var(--secondary-background-color);
+}
+
+.swiper-button-next::after, .swiper-button-prev::after {
+    font-size: 1.6rem !important;
+    color: var(--light-color);
+}
+
+.swiper-pagination-bullet {
+    background-color: var(--light-color) !important;
+}
+
+.swiper-pagination {
+    bottom: .5rem !important;
+}
+
