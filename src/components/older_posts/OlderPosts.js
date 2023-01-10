@@ -21,7 +21,11 @@ const OlderPosts = () => {
                    ))}
                 </div>
 
-                <div></div>
+                <div className='see-more-container'>
+                    <a href='#' className='btn see-more-btn place-items-center'>
+                        See more <i className='ri-arrow-right-s-line'></i>
+                    </a>
+                </div>
             </div>
         </div>
     )
