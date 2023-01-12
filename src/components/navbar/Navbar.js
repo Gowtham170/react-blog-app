@@ -66,10 +66,10 @@ const Navbar = () => {
             <li className='list-item'>
               <a href='#' className='list-link'>Contact</a>
             </li>
-            <li className='list-item'>
+            <li className='list-item screen-lg-hidden'>
               <a href='#' className='list-link'>Sign in</a>
             </li>
-            <li className='list-item'>
+            <li className='list-item screen-lg-hidden'>
               <a href='#' className='list-link'>Sign up</a>
             </li>
           </ul>
@@ -88,8 +88,8 @@ const Navbar = () => {
             <i className='ri-close-line close-menu-icon'></i>
           </button>
 
-          <a href='#' className='list-link screen-sm-hidden'>Sign up</a>
-          <a href='#' className='list-link screen-sm-hidden btn sign-in-btn fancy-border'>
+          <a href='#' className='list-link screen-sm-hidden'>Sign ip</a>
+          <a href='#' className='list-link screen-sm-hidden btn sign-up-btn fancy-border'>
             <span>Sign up</span>
           </a>
         </div>

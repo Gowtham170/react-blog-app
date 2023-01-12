@@ -10,14 +10,7 @@ import 'swiper/css/pagination';
 const QuickRead = () => {
 
     const breakpoints = {
-        700: {
-            width: 700,
-            slidesPerView: 2
-        },
-        1200: {
-            width: 1200,
-            slidesPerView: 3
-        }
+      
     }
 
     return (
@@ -28,17 +21,26 @@ const QuickRead = () => {
                 <Swiper
                     modules={[Navigation, Pagination]}
                     spaceBetween={20}
-                    slidesPerView={1}
                     navigation={true}
                     pagination={{ clickable: true }}
-                    breakpoints={breakpoints}
+                    breakpoints={{
+                        700: {
+                            width: 700,
+                            slidesPerView: 2
+                        },
+                        1200: {
+                            width: 1200,
+                            slidesPerView: 3
+                        }
+
+                    }}
                     className='myswiper'
                 >
-                    <SwiperSlide>
-                        <a href='#' className='article'>
+                    <SwiperSlide className='swiper-wrapper'>
+                        <a href='#' className='article swiper-slide'>
                             <img
                                 src={require('../../assets/images/quick_read/quick_read_1.jpg')}
-                                className='swiperslide'
+                                className='article-image'
                             />
 
                             <div className="article-data-container">
@@ -52,11 +54,11 @@ const QuickRead = () => {
                             </div>
                         </a>
                     </SwiperSlide>
-                    <SwiperSlide>
-                        <a href='#' className='article'>
+                    <SwiperSlide className='swiper-wrapper'>
+                        <a href='#' className='article swiper-slide'>
                             <img
                                 src={require('../../assets/images/quick_read/quick_read_2.jpg')}
-                                className='swiperslide'
+                                className='article-image'
                             />
 
                             <div className="article-data-container">
@@ -70,11 +72,11 @@ const QuickRead = () => {
                             </div>
                         </a>
                     </SwiperSlide>
-                    <SwiperSlide>
-                        <a href='#' className='article'>
+                    <SwiperSlide className='swiper-wrapper'>
+                        <a href='#' className='article swiper-slide'>
                             <img
                                 src={require('../../assets/images/quick_read/quick_read_3.jpg')}
-                                className='swiperslide'
+                                className='article-image'
                             />
 
                             <div className="article-data-container">
@@ -88,11 +90,11 @@ const QuickRead = () => {
                             </div>
                         </a>
                     </SwiperSlide>
-                    <SwiperSlide>
-                        <a href='#' className='article'>
+                    <SwiperSlide className='swiper-wrapper'>
+                        <a href='#' className='article swiper-slide'>
                             <img
                                 src={require('../../assets/images/quick_read/quick_read_4.jpg')}
-                                className='swiperslide'
+                                className='article-image'
                             />
 
                             <div className="article-data-container">
@@ -106,11 +108,11 @@ const QuickRead = () => {
                             </div>
                         </a>
                     </SwiperSlide>
-                    <SwiperSlide>
-                        <a href='#' className='article'>
+                    <SwiperSlide className='swiper-wrapper'>
+                        <a href='#' className='article swiper-slide'>
                             <img
                                 src={require('../../assets/images/quick_read/quick_read_5.jpg')}
-                                className='swiperslide'
+                                className='article-image'
                             />
 
                             <div className="article-data-container">
@@ -124,11 +126,11 @@ const QuickRead = () => {
                             </div>
                         </a>
                     </SwiperSlide>
-                    <SwiperSlide>
-                        <a href='#' className='article'>
+                    <SwiperSlide className='swiper-wrapper'>
+                        <a href='#' className='article swiper-slide'>
                             <img
                                 src={require('../../assets/images/quick_read/quick_read_6.jpg')}
-                                className='swiperslide'
+                                className='article-image'
                             />
 
                             <div className="article-data-container">
